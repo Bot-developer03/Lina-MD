@@ -1,0 +1,34 @@
+{
+  "name": "whatsapp-bot",
+  "version": "2.0.0",
+  "description": "Lightweight Whatsapp Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js",
+    "dev": "node index.js --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salismazaya/whatsapp-bot.git"
+  },
+  "author": "Salis Mazaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salismazaya/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/salismazaya/whatsapp-bot#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.3.0",
+    "axios": "^0.21.1",
+    "file-type": "16.2.0",
+    "link-preview-js": "^3.0.4",
+    "node-tesseract-ocr": "^2.0.0",
+    "openai": "^3.3.0",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "redis": "^4.6.7",
+    "wa-sticker-formatter": "2.8.0",
+    "yargs": "^17.3.1"
+  }
+}
